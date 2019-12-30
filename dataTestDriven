@@ -1,0 +1,13 @@
+[DataSource("Provider=SQLOLEDB;Data Source=.;Integrated Security=SSPI;initial catalog=Uni;Persist Security Info=False", "TestSum")]
+        [TestMethod]
+        public void TestFromDB()
+        {
+            // Access the data
+            int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
+            int y = Convert.ToInt32(TestContext.DataRow["SecondNumber"]);
+            int expected = Convert.ToInt32(TestContext.DataRow["Sum"]);
+            int actual = MathUtil.Sum2Numbers(x, y);
+            Assert.AreEqual(expected, actual,
+                "x:<{0}> y:<{1}>",
+                new object[] { x, y });
+        }
