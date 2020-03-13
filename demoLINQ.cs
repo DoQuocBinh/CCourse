@@ -66,6 +66,31 @@ namespace EntityFrameworkDemo
             var avgSalary = empSearch2.Average(x => x.DoubleSalary);
 
             Console.WriteLine($"Max Double Salary {xxyyzzz}");
+            
+            var db = new Training2Entities();
+            //add a new Customer
+            //var customer = new Customer {name= "Paulp",age=23 };
+            //db.Customers.Add(customer);
+            //db.SaveChanges();
+
+            var deleteCustomer = db.Customers.FirstOrDefault(c => c.id == 4);
+            if (deleteCustomer !=null)
+            {
+                db.Customers.Remove(deleteCustomer);
+                db.SaveChanges();
+            }
+
+            var updateCustomer = db.Customers.FirstOrDefault(c => c.id == 3);
+            updateCustomer.age += 2;
+            db.SaveChanges();
+            
+            var customerSearch = from c in db.Customers
+                                 where c.age > 10
+                                 select c;
+            foreach (var item in customerSearch)
+            {
+                Console.WriteLine($"Name: {item.name} and age: {item.age}");
+            }
             Console.ReadLine();
         }
     }
