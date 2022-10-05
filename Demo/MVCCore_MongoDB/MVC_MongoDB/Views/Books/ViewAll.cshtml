@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Book>
+
+<table class="table">
+    <tr>
+        <td>@Html.DisplayNameFor(item => item.BookName)</td>
+        <td>@Html.DisplayNameFor(item => item.Price)</td>
+        <td>@Html.DisplayNameFor(item => item.Author)</td>
+        <td>@Html.DisplayNameFor(item => item.Category)</td>
+        <td>@Html.DisplayNameFor(item => item.Picture)</td>
+        <td>Action</td>
+    </tr>
+    @foreach (var item in Model)
+        {
+            var imgSrc = "";
+            if (item.Picture != null)
+            {
+                var base64 = Convert.ToBase64String(item.Picture);
+                imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+            }
+        <tr>
+            <td>@item.BookName</td>
+            <td>@Html.DisplayFor(modelItem => item.Price)</td>
+            <td>@Html.DisplayFor(modelItem => item.Author)</td>
+            <td>@Html.DisplayFor(modelItem => item.Category)</td>
+            <td>
+                <img src="@imgSrc" width="150" height="200" />
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.Id  })
+            </td>
+        </tr>
+    }
+</table>
+
