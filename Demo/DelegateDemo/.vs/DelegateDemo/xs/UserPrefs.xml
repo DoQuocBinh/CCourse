@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{093FD197-A7C6-41D6-AF41-EC8C5F75A171}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DelegateDemo/Program.cs">
+    <Files>
+      <File FileName="DelegateDemo/Program.cs" Line="86" Column="29" />
+      <File FileName="DelegateDemo/MyExtensions.cs" Line="15" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DelegateDemo" expanded="True">
+            <Node name="DelegateDemo" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4F4ED0DA-1001-46BA-B739-6E3804883522" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DelegateDemo PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

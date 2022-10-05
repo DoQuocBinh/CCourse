@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{E59F9C32-8B67-4D01-A60A-8E8F91063272}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AsyncProjectDeom/Program.cs">
+    <Files>
+      <File FileName="AsyncProjectDeom/Program.cs" Line="8" Column="19" />
+      <File FileName="AsyncProjectDeom/LazyValue.cs" Line="24" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AsyncProjectDeom" expanded="True">
+            <Node name="AsyncProjectDeom" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AsyncProjectDeom PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Alsn5z1Tz0Rgb6O3q2jVCj+Nankb8R0VMSyB6X6AF0YjcyvNsl8adiqav/wAD+YI7G3oHoXcb1r4AiUFryJJbw==",
+  "success": true,
+  "projectFilePath": "/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/AsyncProjectDeom.csproj",
+  "expectedPackageFiles": [
+    "/Users/doquocbinh/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/doquocbinh/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.29/microsoft.netcore.app.host.osx-x64.3.1.29.nupkg.sha512",
+    "/Users/doquocbinh/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

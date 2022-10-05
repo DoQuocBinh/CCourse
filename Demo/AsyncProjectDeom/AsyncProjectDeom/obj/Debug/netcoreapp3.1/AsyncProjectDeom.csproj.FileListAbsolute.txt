@@ -1,0 +1,14 @@
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/bin/Debug/netcoreapp3.1/AsyncProjectDeom
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/bin/Debug/netcoreapp3.1/AsyncProjectDeom.deps.json
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/bin/Debug/netcoreapp3.1/AsyncProjectDeom.runtimeconfig.json
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/bin/Debug/netcoreapp3.1/AsyncProjectDeom.runtimeconfig.dev.json
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/bin/Debug/netcoreapp3.1/AsyncProjectDeom.dll
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/bin/Debug/netcoreapp3.1/AsyncProjectDeom.pdb
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.csproj.AssemblyReference.cache
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.GeneratedMSBuildEditorConfig.editorconfig
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.AssemblyInfoInputs.cache
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.AssemblyInfo.cs
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.csproj.CoreCompileInputs.cache
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.dll
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.pdb
+/Users/doquocbinh/Projects/AsyncProjectDeom/AsyncProjectDeom/obj/Debug/netcoreapp3.1/AsyncProjectDeom.genruntimeconfig.cache
